@@ -5,9 +5,9 @@ on: [push]
 jobs:
   test:
     name: Test
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
     steps:
     - name: Checkout code
       uses: actions/checkout@master
     - name: Test vim script
-      run: bash -c 'make setup && make test'
+      run: make all
