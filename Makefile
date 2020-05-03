@@ -1,3 +1,5 @@
+all: setup test
+
 setup:
 	git clone https://github.com/thinca/vim-themis.git
 
