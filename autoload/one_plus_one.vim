@@ -1,5 +1,10 @@
 scriptencoding utf-8
 
+if exists('g:loaded_one_plus_one')
+    finish
+endif
+let g:loaded_one_plus_one = 1
+
 let s:save_cpo = &cpo
 set cpo&vim
 
