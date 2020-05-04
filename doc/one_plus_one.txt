@@ -1,0 +1,15 @@
+*one_plus_one.txt*	Version 1.0
+
+==============================================================================
+Introduction                               *one_plus_one* *one_plus_one-introduction*
+
+plus two number.
+
+==============================================================================
+Usage                                                        *one_plus_one-usage*
+
+plus two number.
+
+Example: >
+
+    :call one_plus_one#plus(1, 2)
