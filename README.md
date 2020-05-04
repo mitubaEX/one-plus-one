@@ -4,11 +4,18 @@ simple vim function for practical test
 ## Usage
 
 ```
-:call one_plus_one#plus(1, 2)
+:let a = one_plus_one#plus(1, 2)
+:echo a
 ```
 
 ## Test
 
 ```
-make all (make setup && make test)
+make all
+```
+
+or
+
+```
+make setup && make test
 ```
